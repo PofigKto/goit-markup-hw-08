@@ -1,9 +1,9 @@
  
 .page-header__container {
-             display: flex;
-             align-items: center;
-             justify-content: space-between;
-         }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 .page-header {
@@ -12,6 +12,23 @@
     padding-bottom: 24px;
 }
 
+.logo {
+    font-family: var(--secondary-font-family);
+    @include font(700, 26px, 1.2);
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.logo__accent {
+    color: var(--accent-color);
+}
+
+.logo-footer__link {
+    @include font(700, 26px, 1.2);
+    font-family: var(--secondary-font-family);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
 @media screen and (max-width: 767px){
 
