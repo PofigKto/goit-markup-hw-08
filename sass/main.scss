@@ -1,0 +1,34 @@
+@import './utils/root';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
+
+
+@import './base/common';
+@import './base/section-background-colors';
+@import './base/section';
+@import './base/container';
+@import './base/footer';
+
+
+@import './components/navigation-menu-header';
+@import './components/contact-list-header';
+@import './components/section-title';
+@import './components/modal-hero-btn';
+@import './components/mobile-menu';
+@import './components/adress-footer';
+@import './components/social-media-footer';
+@import './components/subsrible-footer';
+@import './components/backdrop';
+@import './components/modal-wibdow';
+
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/preview-advantages-section';
+@import './layout/benefits-section';
+@import './layout/masters-section';
+@import './layout/regular-clients-section';
+@import './layout/main-card-list-portfolio';
+@import './layout/_button-filtr-portfolio';
+

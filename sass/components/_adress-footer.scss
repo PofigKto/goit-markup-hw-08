@@ -1,0 +1,30 @@
+.adress__container {
+    flex-grow: 1;
+}
+
+.address__footer {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.adress__link {
+    @include font (400, 14px, 1.7);
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+    color: #FFFFFF;
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
+}
+
+.footer-contact__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
