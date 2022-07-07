@@ -107,7 +107,7 @@
             height: 4px;
             border-radius: 2px;
             left: 0;
-            bottom: -32px;
+            bottom: -37px;
             color: var(--accent-color);
             background: var(--accent-color);
         }
@@ -165,6 +165,10 @@
         }
         .logo {
             margin-right: 93px;
+        }
+
+        .current::after {
+            bottom: -32px;
         }
     
         .contacts {
