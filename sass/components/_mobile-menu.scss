@@ -12,6 +12,7 @@
             pointer-events: none;
             transition: opacity 250ms var(--timing-function), visability 250ms var(--timing-function);
             overflow-y: scroll;
+            z-index: 1;
         }
     
         .mobile-menu.is-open {
@@ -34,6 +35,11 @@
             top: 10px;
             right: 15px;
             cursor: pointer;
+
+            &:hover,
+            &:focus {
+                fill: #2196F3;
+            }
         }
 
         .mobile-menu-navigation__link {
@@ -69,6 +75,7 @@
 
         .mobil-menu-phone-number__item {
             margin-bottom: 32px;
+        
         }
 
         .mobile-menu-mail__link {
@@ -90,9 +97,26 @@
                 color: #2196F3;
         }
 
+        .mobile-menu-social-media {
+            display: flex;
+            justify-content: space-between;
+        }
 
+        .mobile-menu-social-media__item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            right: -20px;
+            display: block;
+            width: 22px;
+            height: 2px;
+            background-color: rgba(33, 33, 33, 0.2);
+            transform: rotate(90deg);
+        }
 
-
+        .mobile-menu-social-media__item {
+            position: relative;
+        }
 
 
 }

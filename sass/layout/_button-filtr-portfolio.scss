@@ -29,6 +29,12 @@
     margin-bottom: 50px;
 }
 
+@media screen and (min-width: 768px) {
+    .btn__filtr {
+        justify-content: center;
+    }
+}
+
 
 /*.modal {
     @include font(500, 16px, 1.62);
