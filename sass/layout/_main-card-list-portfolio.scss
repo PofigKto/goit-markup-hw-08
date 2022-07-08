@@ -7,6 +7,12 @@
     margin-bottom: 30px;
 }
 
+.card-container-portfolio {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
+
 .card-link-portfolio {
     display: block;
     transition: box-shadow 250ms var(--timing-function);
@@ -42,12 +48,6 @@
     .card-link-portfolio:focus & {
         transform: translateY(0%);
     }
-}
-
-.card-container-portfolio {
-    padding: 20px 24px;
-    border: 1px solid #EEEEEE;
-    border-top: none;
 }
 
 .caption-portfolio {
