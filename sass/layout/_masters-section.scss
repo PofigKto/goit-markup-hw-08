@@ -16,7 +16,7 @@
 }
 
 .master__img {
-    width: 100%;
+    width: 450px;
 }
 
 .master__title {
@@ -72,6 +72,10 @@
         flex-wrap: wrap;
     }
 
+    .master__img {
+        width: 354px;
+    }
+
     .masters__item {
         width: 354px;
     }
@@ -86,6 +90,7 @@
 
     .masters {
             flex-wrap: nowrap;
+            justify-content: center;
         }
     
     .masters__item {

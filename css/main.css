@@ -1464,7 +1464,7 @@ body {
 }
 
 .master__img {
-  width: 100%;
+  width: 450px;
 }
 
 .master__title {
@@ -1519,6 +1519,10 @@ body {
     flex-wrap: wrap;
   }
 
+  .master__img {
+    width: 354px;
+  }
+
   .masters__item {
     width: 354px;
   }
@@ -1530,6 +1534,7 @@ body {
 @media screen and (min-width: 1200px) {
   .masters {
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .masters__item {
