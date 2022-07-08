@@ -4,5 +4,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-dark);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+ @media screen and (min-width: 1200px) {
+    .section__title {
+        margin-bottom: 50px;
+    }
+ }

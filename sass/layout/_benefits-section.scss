@@ -1,13 +1,11 @@
 
         .benefits {
             display: none;
-            padding-top: 0;
         }
     
         .futures {
             display: flex;
             align-items: center;
-            margin-bottom: 94px;
         }
     
         .futures__item:not(:last-child) {
@@ -34,7 +32,10 @@
 
     @media screen and (min-width: 1200px) {
         .benefits {
-            display: contents;
+            display: block;
+        }
+        .section__title {
+            margin-bottom: 50px;
         }
     }
 
