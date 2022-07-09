@@ -8,8 +8,8 @@
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .logo {
@@ -31,6 +31,7 @@
 }
 
 @media screen and (max-width: 767px){
+    
 
 
     .mobile-menu__open-button {
@@ -55,9 +56,15 @@
             display: none;
         }
 }
-    
+    .current {
+        color: var(--accent-color);
+    }
 
 @media screen and (min-width: 768px) {
+    .page-header {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
 
     .mobile-menu__open-button {
         display: none;
