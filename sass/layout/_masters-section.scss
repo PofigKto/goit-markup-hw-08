@@ -87,6 +87,13 @@
         margin-right: 30px;
         }
 
+    .masters__item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        flex-grow: 1;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {

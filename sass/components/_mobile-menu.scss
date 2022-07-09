@@ -30,6 +30,23 @@
             padding-top: 48px;
             padding-bottom: 48px;
         }
+
+                .current {
+                    color: var(--accent-color);
+                }
+        
+                .current::after {
+                    display: block;
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 4px;
+                    border-radius: 2px;
+                    left: 0;
+                    bottom: -5px;
+                    color: var(--accent-color);
+                    background: var(--accent-color);
+                }
     
         .mobile-menu__close-button {
             background-color: transparent;
@@ -46,6 +63,7 @@
         }
 
         .mobile-menu-navigation__link {
+            position: relative;
             @include font (500, 40px, 1.17);
             text-align: center;
             letter-spacing: 0.02em;

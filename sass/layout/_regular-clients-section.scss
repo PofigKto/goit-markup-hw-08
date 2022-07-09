@@ -21,7 +21,7 @@
 }
 
 .clients__link {
-    width: 210px;
+    flex-basis: 210px;
     height: 92px;
     border: 1px solid var(--aicon-background-color);
     border-radius: 4px;
@@ -46,7 +46,7 @@
     }
 }
 @media screen and (max-width: 767px) {
-    .clients__link{
+    .clients__link {
         width: 210px;
     }
 }

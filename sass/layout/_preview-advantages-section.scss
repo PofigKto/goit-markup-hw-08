@@ -40,14 +40,17 @@
 
 @media screen and (min-width: 768px) {
 
+
     .preview {
             display: flex;
             flex-wrap: wrap;
 
         }
-        .preview__item {
-            width: 354px;
-        }
+               .preview__item {
+                flex-basis: 354px;
+                   
+               }
+
 .preview__item:nth-last-child(-n+2){
     margin-bottom: 0;
 }
@@ -60,7 +63,13 @@
     }
 }
 
+
 @media screen and (min-width: 1200px) {
+
+    .preview__item {
+        flex-basis: 270px;
+        
+    }
 
     .preview {    
         flex-wrap: nowrap
