@@ -1165,7 +1165,7 @@ body {
 .masters__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 450px;
+  /*width: 450px;*/
 }
 .masters__item:not(:last-child) {
   margin-bottom: 30px;
@@ -1229,6 +1229,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .masters {
+    gap: 30px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -1237,20 +1238,24 @@ body {
     width: 354px;
   }
 
-  .masters__item {
-    width: 354px;
+  .masters__item:nth-last-child(-n+4) {
+    margin-bottom: 0;
+  }
+
+  /*.masters__item {
+      width: 354px;
   }
 
   .masters__item:nth-child(odd) {
-    margin-right: 30px;
+      margin-right: 30px;
   }
 
   .masters__item {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    flex-grow: 1;
-  }
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      flex-grow: 1;
+  }*/
 }
 @media screen and (min-width: 1200px) {
   .masters {
@@ -1258,13 +1263,13 @@ body {
     justify-content: center;
   }
 
-  .masters__item {
-    width: 270px;
-  }
-  .masters__item:not(:last-child) {
-    margin-right: 30px;
-  }
+  /*.masters__item {
+      width: 270px;
 
+      &:not(:last-child) {
+          margin-right: 30px;
+      }
+  }*/
   .masters__item:nth-last-child(-n+4) {
     margin-bottom: 0;
   }
