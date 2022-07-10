@@ -35,7 +35,7 @@
                     color: var(--accent-color);
                 }
         
-                .current::after {
+                /*.current::after {
                     display: block;
                     position: absolute;
                     content: '';
@@ -46,7 +46,7 @@
                     bottom: -5px;
                     color: var(--accent-color);
                     background: var(--accent-color);
-                }
+                }*/
     
         .mobile-menu__close-button {
             background-color: transparent;
